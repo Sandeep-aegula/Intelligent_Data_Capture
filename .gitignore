@@ -1,0 +1,80 @@
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.sample
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+
+# ==============================
+# Python / FastAPI backend
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# ==============================
+# Database files and local data
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+backend/uploads/
+instance/
+
+# ==============================
+# Node / React / Vite frontend
+# ==============================
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# Build and generated files
+# ==============================
+build/
+out/
+*.tsbuildinfo
+
+# ==============================
+# Editors and operating systems
+# ==============================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Testing and temporary files
+# ==============================
+.pytest_cache/
+.tmp/
+temp/
+*.tmp
